@@ -3,7 +3,7 @@ const app = express()
 const port = 5000
 
 app.get('/api/rosa', (req, res) => {
-  res.send('{Hello ROSA! - v4}')
+  res.send('{Hello ROSA! - v6}')
 })
 
 app.listen(port, () => {
